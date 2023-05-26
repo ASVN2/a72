@@ -1,0 +1,29 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "quote": "Be yourself; everyone else is already taken.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "id": 2,
+      "quote": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+      "author": "Albert Einstein"
+    },
+    {
+      "id": 3,
+      "quote": "In three words I can sum up everything I've learned about life: it goes on.",
+      "author": "Robert Frost"
+    },
+    {
+      "id": 4,
+      "quote": "Don't cry because it's over, smile because it happened.",
+      "author": "Dr. Seuss"
+    },
+    {
+      "id": 5,
+      "quote": "The only way to do great work is to love what you do.",
+      "author": "Steve Jobs"
+    }
+  ]
+}

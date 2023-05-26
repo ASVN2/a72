@@ -1,0 +1,61 @@
+{
+  "tasks": [
+    {
+      "icon": "💻",
+      "name": "Working on my website ",
+      "done": 1,
+      "all": 10
+    },
+    {
+      "icon": "🎮",
+      "name": "playing dead cells",
+      "done": 3,
+      "all": 10
+    },
+    {
+      "icon": "🔥",
+      "name": "Learning C",
+      "done": 5,
+      "all": 10
+    },
+    {
+      "icon": "📖",
+      "name": "Reading The one thing",
+      "done": 4,
+      "all": 10
+    },
+
+    {
+      "icon": "♟",
+      "name": "Learning Chess ",
+      "done": 2,
+      "all": 10
+    },
+
+    {
+      "icon": "📺",
+      "name": "The 20 TEDTalks ",
+      "done": 1,
+      "all": 10
+    },
+
+    {
+      "icon": "🧰",
+      "name": "secret project",
+      "done": 1,
+      "all": 10
+    },
+    {
+      "icon": "🧰",
+      "name": "secret project",
+      "done": 4,
+      "all": 10
+    },
+    {
+      "icon": "🧭",
+      "name": "Graduate SE",
+      "done": 0,
+      "all": 10
+    }
+  ]
+}
