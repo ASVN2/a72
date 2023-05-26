@@ -3,7 +3,7 @@
     {
       "icon": "💻",
       "name": "Working on my website ",
-      "done": 1,
+      "done": 2,
       "all": 10
     },
     {
@@ -15,13 +15,13 @@
     {
       "icon": "🔥",
       "name": "Learning C",
-      "done": 5,
+      "done": 3,
       "all": 10
     },
     {
       "icon": "📖",
       "name": "Reading The one thing",
-      "done": 4,
+      "done": 2,
       "all": 10
     },
 
@@ -42,12 +42,12 @@
     {
       "icon": "🧰",
       "name": "secret project",
-      "done": 1,
+      "done": 5,
       "all": 10
     },
     {
-      "icon": "🧰",
-      "name": "secret project",
+      "icon": "🇬🇧",
+      "name": "Developing English",
       "done": 4,
       "all": 10
     },

@@ -7,19 +7,19 @@ const Nav = () => {
   return (
     <div className="max-w-[1000px] bg-green-400 text-black p-2 mt-10 rounded-md px-6 mx-auto my-6 flex justify-between">
       <div className="logo font-logo text-2xl">
-        <img src="/darklogo.png" className="max-w-[40px]" alt="logo.png" />
+        <Link href={'/'}>
+          <img src="/darklogo.png" className="max-w-[40px]" alt="logo.png" />
+        </Link>
       </div>
       <ul className=" flex gap-5 text-xl capitalize place-items-center">
-        <Link href={'/quates'} className=" cursor-pointer ">
-          quates
-        </Link>
-        <p href={'/'} className="cursor-pointer line-through">
+        <Link href={'/quates'}>quates</Link>
+        <p href={'/'} className="line-through">
           blog
         </p>
-        <p href={'/'} className="cursor-pointer line-through">
+        <p href={'/'} className="line-through">
           About
         </p>
-        <p href={'/'} className="cursor-pointer line-through">
+        <p href={'/'} className="line-through">
           resource
         </p>
         <Link href={'/now'} className="font-bold">
