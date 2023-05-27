@@ -23,11 +23,13 @@ const page = () => {
         <div className="dot w-3 h-3 bg-red-600 relative fiding rounded-full"></div>
         <div className="life">Live</div>
       </div>
-      <div className="tasks grid grid-cols-cols-1 md:grid-cols-2 xl:grid-cols-3 max-w-[1000px] gap-3 mt-20 p-2 mx-auto">
+      <div className="tasks flex p-6 max-w-[1000px] flex-wrap gap-3 mt-20 mx-auto">
         {tasks &&
           tasks.map((task) => {
             return (
-              <div className="task w-[300px] bg-gray-900 hover:bg-gray-800 hover:scale-105 cursor-pointer duration-200 border border-white p-4 rounded-md">
+              <div
+                className="task min-w-[300px] flex-1 bg-gray-900 hover:bg-gray-800 hover:scale-105 
+              cursor-pointer duration-200 border border-white p-4 rounded-md">
                 <p className="flex gap-2 text-xl">
                   <span>{task.icon}</span>
                   {task.name}

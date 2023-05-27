@@ -4,7 +4,7 @@ const page = () => {
   const quates = data.quotes;
   return (
     <div>
-      <div className="quates max-w-[1000px] mx-auto mt-10 ">
+      <div className="quates max-w-[1000px] p-4 mx-auto mt-10 ">
         {quates.map((quate) => {
           return (
             <div className="quate text-white p-4 border-white border-dashed border rounded-md mb-4" key={quate.id}>

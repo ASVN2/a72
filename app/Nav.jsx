@@ -2,13 +2,12 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { MdWbSunny } from 'react-icons/md';
-import { FcMenu } from 'react-icons/fc';
 
 const Nav = () => {
   const [opne, setopn] = useState(false);
   return (
-    <div className="max-w-[1000px] relative  bg-green-400 text-black p-2 mt-10 rounded-md px-6 mx-auto my-6 flex justify-between">
-      <div className="logo font-logo text-2xl">
+    <div className="max-w-[1000px] bg-green-400 text-black p-2 rounded-md px-6 mx-auto my-6 flex justify-between">
+      <div className="logo font-logo w-[0] md:w-[40px] text-2xl">
         <Link href={'/'}>
           <img src="/darklogo.png" className="max-w-[40px]" alt="logo.png" />
         </Link>
@@ -22,23 +21,17 @@ const Nav = () => {
         //}
         className=" w-fit place-items-center flex gap-4 ">
         <Link href={'/quates'}>quates</Link>
-        <p href={'/'} className="hidden md:block  line-through">
+        <p href={'/'} className="  line-through">
           blog
         </p>
-        <p href={'/'} className="hidden md:block line-through">
-          About
-        </p>
-        <p href={'/'} className="hidden md:block line-through">
+        <p href={'/'} className=" line-through">
           resource
         </p>
         <Link href={'/now'} className="font-bold">
           now
         </Link>
-        <div className="mood flex place-items-center cursor-pointer">
+        <div className="mood hidden md:flex place-items-center cursor-pointer">
           <MdWbSunny className="text-2xl" />
-        </div>
-        <div className="x ml-2 flex place-items-centercursor-pointer text-2xl  text-black md:hidden">
-          <FcMenu className="" />
         </div>
       </ul>
       <script
